@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"> <img src="img/logo.png" alt="logo" class="header-logo"></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a  href="index.html">Trang chủ</a></li>
+                    <li><a  href="shop.html">Cửa hàng</a></li>
+                    <li><a  href="blog.html">Blog</a></li>
+                    <li><a  href="about.html">Thông tin</a></li>
+                    <li><a  href="contact.html">Liên hệ</a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close" ><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a  href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Chia Sẻ Cảm Nhận Của Bạn</h2>
+        <p>Bạn có câu hỏi nào không? Đừng ngần ngại liên hệ với chúng tôi!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Xóa</td>
+                    <td>Hỉnh ảnh</td>
+                    <td>Sản phẩm</td>
+                    <td>Giá</td>
+                    <td>Số lượng</td>
+                    <td>Tổng</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Áo thun họa tiếc độc đáo</td>
+                    <td>890.000đ</td>
+                    <td><input type="number" min="0" max="10" value="1"></td>
+                    <td>890.000đ</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Nhập Mã Ưu Đãi</h3>
+            <div>
+                <input type="text" placeholder="Nhập mã giảm giá của bạn">
+                <button class="normal">Áp dụng</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Tổng cộng giỏ hàng</h3>
+            <table>
+                <tr>
+                    <td>Tạm tính</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td>Miễn phí</td>
+                </tr>
+                <tr>
+                    <td><strong>Tổng</strong></td>
+                    <td><strong></strong></td>
+                </tr>
+            </table>
+            <a href="checkout.html"><button class="normal">Chuyển đến thanh toán</button></a>
+            
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h4>Liên hệ</h4>
+            <p><strong>Địa chỉ:</strong> Hòa Hải, Ngũ Hành Sơn, Đà Nẵng</p>
+            <p><strong>Phone:</strong> 0987654321  </p>
+            <p><strong>Email:</strong> luonghauthinh@gmail.com</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Thứ hai - Chủ nhật</p>
+            <div class="follow">
+                <h4>Theo dõi chúng tôi</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Về chúng tôi</h4>
+            <a href="#!">Về chúng tôi</a>
+            <a href="#!">Thông tin giao hàng</a>
+            <a href="#!">Chính sách bảo mật</a>
+            <a href="#!">Điều khoản & Điều kiện</a>
+            <a href="#!">Liên hệ</a>
+        </div>
+        <div class="col">
+            <h4>Tài khoản của tôi</h4>
+            <a href="#!">Đăng nhập</a>
+            <a href="#!">Xem giỏ hàng</a>
+            <a href="#!">Danh sách mong muốn của tôi</a>
+            <a href="#!">Theo dõi đơn hàng của tôi</a>
+            <a href="#!">Trợ giúp</a>
+        </div>
+        
+        <div class="col install">
+            <h4>Cài đặt ứng dụng</h4>
+            <p>Từ App Store hoặc Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Cổng thanh toán được bảo mật</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
